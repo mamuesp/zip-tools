@@ -1,12 +1,12 @@
 author: mamuesp
-description: A bunch of ZIP based functions you need everywhere ...
+description: A bunch of ZIP based functions you may need ...
 version: 0.1
 libs_version: ${mos.version}
 modules_version: ${mos.version}
 mongoose_os_version: ${mos.version}
 
 config_schema:
-  - ["zip_tools", "o", {title: "swiss army knife (tool collection) settings"}]
+  - ["zip_tools", "o", {title: "ZIP tools (tool collection) settings"}]
   - ["zip_tools.enable", "b", true, {title: "Set tools active when initializing the library"}]
   - ["zip_tools.data_path", "s", "", {title: "File system where eventually needed data is stored"}]
 
